@@ -1,0 +1,514 @@
+/* 1680px */
+@media screen and (max-width: 1860px) {
+    .menu__link {
+        font-size: 20px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .footer__content {
+        max-width: 50%;
+        width: 100%;
+    }
+}
+
+/* 1440px */ 
+
+@media screen and (max-width: 1620px) {
+    .menu__link {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .history__text:last-child {
+        max-width: 100%;
+    }
+
+    .gallery__text {
+        max-width: 100%;
+    }
+
+    .header__background {
+        margin: 0;
+        margin-inline: 20px;
+        height: calc(100vh - 200px);
+    }
+
+    .title {
+        max-width: 60%;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .gallery__image {
+        height: 50vh;
+    }
+
+    .teachers__gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .teachers__image {
+        width: 1000px;
+        height: 50vh;
+    }
+
+    .student__gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+}
+
+/* 1280 */
+
+@media screen and (max-width: 1300px) {
+    .menu__link {
+        font-size: 20px;
+    }
+
+    .calendar {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .calendar__item {
+        padding: 15px;
+    }
+
+    .calendar__item_custom-1 {
+        background-color: #f3f5f4;
+    }
+
+    .calendar__item_custom-2 {
+        background-color: #7ed956;
+    }
+
+    .footer__content {
+        max-width: 60%;
+    }
+
+    .history__interview {
+        flex-direction: column-reverse;
+    }
+
+    .teachers__interview {
+        max-width: 100%;
+    }
+
+    .teachers__director {
+        max-width: 50vw;
+    }
+
+    .director__descr {
+        display: none;
+    }
+
+    .history__text {
+        max-width: 100%;
+    }
+}
+
+/* 1024 */
+
+@media screen and (max-width: 1160px) {
+
+    section {
+        padding-inline: 40px;
+    }
+
+    .footer {
+        padding-inline: 40px;
+    }
+
+
+    .header__background {
+        margin-inline: 0;
+        border-radius: 16px;
+    }
+
+    .title {
+        max-width: 100%;
+        line-height: 1.2;
+        margin-top: 70px;
+        font-size: 76px;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+    .uppercase::first-letter {
+        text-transform: uppercase;
+    }
+
+    .menu {
+        padding-inline: 15px;
+    }
+
+    .menu__link {
+        font-size: 22px;
+    }
+
+    .section-subtitle {
+        position: relative;
+        z-index: 2;
+    }
+
+    .gallery__video {
+        flex-wrap: wrap;
+    }
+
+    .iframe {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .footer__content {
+        max-width: 70%;
+    }
+}
+
+/* 768px */ 
+
+@media screen and (max-width: 900px) {
+
+    section {
+        padding-inline: 20px;
+    }
+
+    .section-title {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+
+    .footer-title {
+        font-size: 20px;
+    }
+
+    .footer__text {
+        font-size: 18px;
+    }
+
+    .section-subtitle {
+        font-size: 28px;
+    }
+
+    .history__text {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .history__text_margin {
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        padding-inline: 20px;
+    }
+
+    .invisible-2 {
+        display: none;
+    }
+
+    .menu__link {
+        font-size: 22px;
+    }
+
+
+    .title {
+        max-width: 70%;
+        font-size: 44px;
+    }
+
+    .footer__content {
+        max-width: 90%;
+    }
+
+    .founder__content {
+        flex-direction: column;
+    }
+
+    .founder__descr {
+        max-width: 100%;
+    }
+
+
+    .menu__list {
+        flex-direction: column;
+        max-width: 200px;
+        gap: 30px;
+        padding: 0;
+        margin-left: auto;
+    }
+
+    .logo {
+        align-self: start;     
+    }
+
+    .history__house:nth-child(1n) {
+        flex-direction: column; 
+    }
+
+    .history__house__descr {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .history__house img {
+        width: 100%;
+    }
+
+    .founder__image {
+        max-height: 45vh ;
+    }
+}
+
+/* 576 */
+
+@media screen and (max-width: 676px) {
+    section {
+        padding-block: 50px;
+    }
+
+    .section-subtitle {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        max-width: 67px;
+    }
+
+    .menu__list {
+        gap: 16px;
+    }
+
+    .menu__link {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 34px;
+        margin-top: 40px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .history__text {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .history__text_margin {
+        margin-bottom: 40px;
+    }
+
+    .gallery__text {
+        font-size: 18px;
+    }
+
+    .gallery__image {
+        height: 80vh;
+    }
+
+    .teachers__image {
+        height: 50vh;
+    }
+
+    .calendar {
+        grid-template-columns: 1fr;
+    }
+
+    .calendar__item_custom-1 {
+        background-color: #7ed956;
+    }
+
+    .calendar__item_custom-2 {
+        background-color: #f3f5f4;
+    }
+
+    .footer-title {
+        font-size: 22px;
+    }
+
+    .footer__content {
+        max-width: 100%;
+    }
+}
+
+
+/* iphone */ 
+
+@media screen and (max-width: 432px) {
+    section {
+        padding: 40px 15px;
+    }
+
+    .section-title {
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+
+    .section-subtitle {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .logo {
+        max-width: 50px;
+    }
+
+    .title {
+        font-size: 30px;
+        max-width: 100%;
+        margin-left: 25px;
+        margin-top: 45px;
+        max-width: 70%;
+    }
+
+    .none {
+        display: inline-block;
+    }
+
+    .menu__list {
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .menu__link {
+        font-size: 12px;
+    }
+
+    .menu {
+        padding-inline: 10px;
+        margin-bottom: 0;
+    }
+
+    .years {
+        font-size: 18px;
+    }
+
+    .founder__text {
+        font-size: 16px;
+    }
+
+    .header__background {
+        height: 28vh;
+    }
+
+    .black {
+        color: #1a2c12;
+    }
+
+    .history__house {
+        gap: 15px;
+    }
+
+    .history__house__descr {
+        font-size: 16px;
+    }
+
+    .history__text {
+        font-size: 16px;
+    }
+
+    .history__text_margin {
+        margin-bottom: 26px;
+    }
+
+    .history__pic {
+        width: 200px;
+        height: 200px;
+        top: 8%;
+        right: -16px;
+    }
+
+    .teachers__director {
+        max-width: 100%;
+    }
+
+    .tooltip .tooltiptext{
+        width: 280px;
+    }
+
+    .tooltip .tooltiptext::after {
+        left: 71%;
+    }
+
+    .gallery__image {
+        height: 55vh;
+        width: max-content;
+    }
+
+    .iframe {
+        height: 40vh;
+    }
+
+    .map-title {
+        font-size: 20px;
+    }
+
+    .footer {
+        padding-block: 20px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__link {
+        font-size: 22px;
+    }
+
+    .email {
+        font-size: 20px;
+    }
+
+    .footer__text {
+        font-size: 12px;
+    }
+
+    .footer-title {
+        font-size: 22px;
+    }
+
+
+}
+
+/* 320px */
+
+@media screen and (max-width: 320px) {
+    .menu__list {
+        display: none;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    .section-subtitle {
+        font-size: 19px;
+    }
+
+    .calendar__item {
+        padding: 0;
+    }
+}
