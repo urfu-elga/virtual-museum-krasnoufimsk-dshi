@@ -369,6 +369,7 @@
 
     .logo {
         max-width: 50px;
+         margin-right: 30px;
     }
 
     .title {
@@ -389,13 +390,19 @@
     }
 
     .menu__link {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .menu {
         padding-inline: 10px;
         margin-bottom: 0;
     }
+
+    .menu__list {
+        margin: 0;
+        max-width: 100%;
+    }
+
 
     .years {
         font-size: 18px;
